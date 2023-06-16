@@ -1,0 +1,56 @@
+# CMake generation dependency list for this directory.
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeCInformation.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeCXXInformation.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeGenericSystem.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeRCInformation.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckCXXCompilerFlag.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Compiler/MSVC-C.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Compiler/MSVC-CXX.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Compiler/MSVC.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/ExternalData.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/FindPackageMessage.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/FindThreads.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/GenerateExportHeader.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Internal/CheckFlagCommonConfig.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-C.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Platform/Windows-MSVC.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Platform/Windows.cmake
+D:/Learning/CMake/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake
+D:/Learning/VTK/VTK-Project/Part 2/data2/CMakeLists.txt
+D:/Learning/VTK/VTK-Project/Part 2/data2/build/CMakeFiles/3.26.3/CMakeCCompiler.cmake
+D:/Learning/VTK/VTK-Project/Part 2/data2/build/CMakeFiles/3.26.3/CMakeCXXCompiler.cmake
+D:/Learning/VTK/VTK-Project/Part 2/data2/build/CMakeFiles/3.26.3/CMakeRCCompiler.cmake
+D:/Learning/VTK/VTK-Project/Part 2/data2/build/CMakeFiles/3.26.3/CMakeSystem.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-targets.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-properties.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99/FindOpenGL.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-find-package-helpers.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-prefix.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkCMakeBackports.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkEncodeString.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkHashSource.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkModule.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkModuleJson.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkModuleTesting.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkObjectFactory.cmake
+D:/Learning/VTK/VTK-bin/lib/cmake/vtk-9.2/vtkTopologicalSort.cmake
+D:/Learning/VTK/VTK-bin/vtk-config-version.cmake
+D:/Learning/VTK/VTK-bin/vtk-config.cmake
