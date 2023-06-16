@@ -1,0 +1,10 @@
+^D:\YEAR 3 SEM 2\SECV3233 - 01 DATA VISUALIZATION\VTK\VTK-PROJ\FOOT\BUILD\CMAKEFILES\D1AE70F92EB0A6BEDC9F5D4339596A2D\GENERATE.STAMP.RULE
+setlocal
+"D:\Year 3 SEM 2\SECV3233 - 01 DATA VISUALIZATION\CMake\bin\cmake.exe" "-SD:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot" "-BD:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/Foot.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

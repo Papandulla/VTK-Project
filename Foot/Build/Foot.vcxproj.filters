@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Year 3 SEM 2\SECV3233 - 01 DATA VISUALIZATION\VTK\VTK-proj\Foot\Foot.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Year 3 SEM 2\SECV3233 - 01 DATA VISUALIZATION\VTK\VTK-proj\Foot\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6A24B576-7FD5-375A-AEF7-D0E36D04A7C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

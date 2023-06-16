@@ -1,0 +1,419 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 14/6/2023 6:28:31 PM.
+      Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdC.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
+      Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdC\\CompilerIdC.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.24
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/3.26.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+      Copyright (C) Microsoft Corporation. All rights reserved.
+      
+      Build started 14/6/2023 6:28:33 PM.
+      Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
+      PrepareForBuild:
+        Creating directory "Debug\\".
+        Creating directory "Debug\\CompilerIdCXX.tlog\\".
+      InitializeBuildStatus:
+        Creating "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+      ClCompile:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc142.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        Deleting file "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
+        Touching "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
+      Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\3.26.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" (default targets).
+      
+      Build succeeded.
+          0 Warning(s)
+          0 Error(s)
+      
+      Time Elapsed 00:00:01.18
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/3.26.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-iuhx0f"
+      binary: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-iuhx0f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-iuhx0f
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_52c79.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 14/6/2023 6:28:34 PM.
+        Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iuhx0f\\cmTC_52c79.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_52c79.dir\\Debug\\".
+          Creating directory "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iuhx0f\\Debug\\".
+          Creating directory "cmTC_52c79.dir\\Debug\\cmTC_52c79.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_52c79.dir\\Debug\\cmTC_52c79.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52c79.dir\\Debug\\\\" /Fd"cmTC_52c79.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCCompilerABI.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52c79.dir\\Debug\\\\" /Fd"cmTC_52c79.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iuhx0f\\Debug\\cmTC_52c79.exe" /INCREMENTAL /ILK:"cmTC_52c79.dir\\Debug\\cmTC_52c79.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-iuhx0f/Debug/cmTC_52c79.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-iuhx0f/Debug/cmTC_52c79.lib" /MACHINE:X64  /machine:x64 cmTC_52c79.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_52c79.vcxproj -> D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iuhx0f\\Debug\\cmTC_52c79.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_52c79.dir\\Debug\\cmTC_52c79.tlog\\unsuccessfulbuild".
+          Touching "cmTC_52c79.dir\\Debug\\cmTC_52c79.tlog\\cmTC_52c79.lastbuildstate".
+        Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-iuhx0f\\cmTC_52c79.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.13
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-yzkrzo"
+      binary: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-yzkrzo"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-yzkrzo
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ee516.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 14/6/2023 6:28:36 PM.
+        Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yzkrzo\\cmTC_ee516.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ee516.dir\\Debug\\".
+          Creating directory "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yzkrzo\\Debug\\".
+          Creating directory "cmTC_ee516.dir\\Debug\\cmTC_ee516.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ee516.dir\\Debug\\cmTC_ee516.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee516.dir\\Debug\\\\" /Fd"cmTC_ee516.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CMakeCXXCompilerABI.cpp
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ee516.dir\\Debug\\\\" /Fd"cmTC_ee516.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yzkrzo\\Debug\\cmTC_ee516.exe" /INCREMENTAL /ILK:"cmTC_ee516.dir\\Debug\\cmTC_ee516.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-yzkrzo/Debug/cmTC_ee516.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-yzkrzo/Debug/cmTC_ee516.lib" /MACHINE:X64  /machine:x64 cmTC_ee516.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_ee516.vcxproj -> D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yzkrzo\\Debug\\cmTC_ee516.exe
+        FinalizeBuildStatus:
+          Deleting file "cmTC_ee516.dir\\Debug\\cmTC_ee516.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ee516.dir\\Debug\\cmTC_ee516.tlog\\cmTC_ee516.lastbuildstate".
+        Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-yzkrzo\\cmTC_ee516.vcxproj" (default targets).
+        
+        Build succeeded.
+            0 Warning(s)
+            0 Error(s)
+        
+        Time Elapsed 00:00:01.03
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-29hq7f"
+      binary: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-29hq7f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-29hq7f
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_13192.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 14/6/2023 6:29:31 PM.
+        Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\cmTC_13192.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_13192.dir\\Debug\\".
+          Creating directory "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\Debug\\".
+          Creating directory "cmTC_13192.dir\\Debug\\cmTC_13192.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_13192.dir\\Debug\\cmTC_13192.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13192.dir\\Debug\\\\" /Fd"cmTC_13192.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\src.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          src.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13192.dir\\Debug\\\\" /Fd"cmTC_13192.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\src.c"
+        D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\cmTC_13192.vcxproj]
+        Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\cmTC_13192.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\cmTC_13192.vcxproj" (default target) (1) ->
+        (ClCompile target) -> 
+          D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-29hq7f\\cmTC_13192.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.93
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-aheqmj"
+      binary: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-aheqmj"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-aheqmj
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_ed235.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 14/6/2023 6:29:32 PM.
+        Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\cmTC_ed235.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_ed235.dir\\Debug\\".
+          Creating directory "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\Debug\\".
+          Creating directory "cmTC_ed235.dir\\Debug\\cmTC_ed235.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_ed235.dir\\Debug\\cmTC_ed235.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed235.dir\\Debug\\\\" /Fd"cmTC_ed235.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed235.dir\\Debug\\\\" /Fd"cmTC_ed235.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\Debug\\cmTC_ed235.exe" /INCREMENTAL /ILK:"cmTC_ed235.dir\\Debug\\cmTC_ed235.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-aheqmj/Debug/cmTC_ed235.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-aheqmj/Debug/cmTC_ed235.lib" /MACHINE:X64  /machine:x64 cmTC_ed235.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\cmTC_ed235.vcxproj]
+        Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\cmTC_ed235.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\cmTC_ed235.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-aheqmj\\cmTC_ed235.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:01.02
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/VTK-vtk-module-find-packages.cmake:115 (find_package)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/vtk-config.cmake:152 (include)"
+      - "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/vtk-config.cmake:1 (include)"
+      - "CMakeLists.txt:6 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-nj3u93"
+      binary: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-nj3u93"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2/patches/99;D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-bin/lib/cmake/vtk-9.2"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-nj3u93
+        
+        Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3468d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:n && Microsoft (R) Build Engine version 16.11.2+f32259642 for .NET Framework
+        Copyright (C) Microsoft Corporation. All rights reserved.
+        
+        Build started 14/6/2023 6:29:34 PM.
+        Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\cmTC_3468d.vcxproj" on node 1 (default targets).
+        PrepareForBuild:
+          Creating directory "cmTC_3468d.dir\\Debug\\".
+          Creating directory "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\Debug\\".
+          Creating directory "cmTC_3468d.dir\\Debug\\cmTC_3468d.tlog\\".
+        InitializeBuildStatus:
+          Creating "cmTC_3468d.dir\\Debug\\cmTC_3468d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+        ClCompile:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3468d.dir\\Debug\\\\" /Fd"cmTC_3468d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\CheckFunctionExists.c"
+          Microsoft (R) C/C++ Optimizing Compiler Version 19.29.30148 for x64
+          Copyright (C) Microsoft Corporation.  All rights reserved.
+          CheckFunctionExists.c
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3468d.dir\\Debug\\\\" /Fd"cmTC_3468d.dir\\Debug\\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\CheckFunctionExists.c"
+        Link:
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\Debug\\cmTC_3468d.exe" /INCREMENTAL /ILK:"cmTC_3468d.dir\\Debug\\cmTC_3468d.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-nj3u93/Debug/cmTC_3468d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Year 3 SEM 2/SECV3233 - 01 DATA VISUALIZATION/VTK/VTK-proj/Foot/Build/CMakeFiles/CMakeScratch/TryCompile-nj3u93/Debug/cmTC_3468d.lib" /MACHINE:X64  /machine:x64 cmTC_3468d.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\cmTC_3468d.vcxproj]
+        Done Building Project "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\cmTC_3468d.vcxproj" (default targets) -- FAILED.
+        
+        Build FAILED.
+        
+        "D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\cmTC_3468d.vcxproj" (default target) (1) ->
+        (Link target) -> 
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\Year 3 SEM 2\\SECV3233 - 01 DATA VISUALIZATION\\VTK\\VTK-proj\\Foot\\Build\\CMakeFiles\\CMakeScratch\\TryCompile-nj3u93\\cmTC_3468d.vcxproj]
+        
+            0 Warning(s)
+            1 Error(s)
+        
+        Time Elapsed 00:00:00.97
+        
+      exitCode: 1
+...
