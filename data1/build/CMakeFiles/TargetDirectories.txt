@@ -1,0 +1,3 @@
+D:/Learning/VTK/VTK-Project/Part 2/data1/build/CMakeFiles/data1.dir
+D:/Learning/VTK/VTK-Project/Part 2/data1/build/CMakeFiles/ALL_BUILD.dir
+D:/Learning/VTK/VTK-Project/Part 2/data1/build/CMakeFiles/ZERO_CHECK.dir
