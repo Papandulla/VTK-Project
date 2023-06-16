@@ -1,0 +1,10 @@
+^D:\LEARNING\VTK\VTK-PROJECT\PART 2\CAROTID\CMAKELISTS.TXT
+setlocal
+D:\Learning\CMake\bin\cmake.exe "-SD:/Learning/VTK/VTK-Project/Part 2/Carotid" "-BD:/Learning/VTK/VTK-Project/Part 2/Carotid/build" --check-stamp-file "D:/Learning/VTK/VTK-Project/Part 2/Carotid/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

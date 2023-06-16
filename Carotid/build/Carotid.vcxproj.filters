@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Learning\VTK\VTK-Project\Part 2\Carotid\flowVisSample.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Learning\VTK\VTK-Project\Part 2\Carotid\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2D3B611A-2A6A-3D98-95D8-8D1F875DF85A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Learning\VTK\VTK-Project\Part 2\Carotid\build\CMakeFiles\852d7211be0d0cdb91cff6a464702c24\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{D82CFF2B-DE9A-3BCA-95F3-3EC7A0AF5B9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

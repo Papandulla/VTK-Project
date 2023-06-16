@@ -1,0 +1,3 @@
+D:/Learning/VTK/VTK-Project/Part 2/Carotid/build/CMakeFiles/Carotid.dir
+D:/Learning/VTK/VTK-Project/Part 2/Carotid/build/CMakeFiles/ALL_BUILD.dir
+D:/Learning/VTK/VTK-Project/Part 2/Carotid/build/CMakeFiles/ZERO_CHECK.dir
